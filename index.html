@@ -1,0 +1,41 @@
+<html>
+<head>
+
+	<meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<center>
+<h1>Let's Calculate</h1>
+</center>
+<form name="calcform">
+<div class="header">
+<center>
+  <p>First Number</p>
+  <input class="form" name="f_num" type="text" value="0">
+
+  <p>Second Number</p>
+  <input class="form" name="s_num" type="text" value="0">
+  
+  <p>Select an Operation</p>
+  <p>
+  <input class="but" name="plus" type="button" value="+" onClick="GetResult(1)">
+  <input class="but" name="minus" type="button" value="-" onClick="GetResult(2)">
+  <input class="but" name="multiply" type="button" value="*" onClick="GetResult(3)">
+  <input class="but" name="divide" type="button" value="/" onClick="GetResult(4)">
+  </p>
+
+   <p>Result</p>
+   <input class="form" name="res" type="text">
+
+</center>
+</form>
+</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+
